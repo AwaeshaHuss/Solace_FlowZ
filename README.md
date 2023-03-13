@@ -47,9 +47,15 @@ SolaceFlowz.of<int>(context).setState(() {
 ```
 
 SolaceFlowz<MyData>(
-  builder: (context, solaceFlowz) => Text(solaceFlowz.data),
-  child: MyWidget(),
+  builder: (context, solaceFlowz) => SolaceFlowzConsumer<MyData>(
+    builder: (context, data) {
+      // Use the MyData object to build your widget tree
+      return Text(data.toString());
+    },
+    child: MyWidget(),
+  ),
 );
+
 
 ```
 
