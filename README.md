@@ -108,10 +108,6 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-### GitHub Repository
-
-**The source code for My Package is available on GitHub at [GitHub Repo](https://github.com/AwaeshaHuss/Solace_FlowZ.git).**
-
 You can clone the repository using the following command:
 
 `
