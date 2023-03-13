@@ -1,7 +1,3 @@
 library solace_flowz;
-
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'package:solace_flowz/src/solace_flowz.dart';
+export 'package:solace_flowz/src/solace_flowz_consumer.dart';
