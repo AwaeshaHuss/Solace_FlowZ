@@ -1,6 +1,6 @@
 name: solace_flowz
 description: state management package built on top of InheritedWidget, that aims to simplify the state managementm work for flutter developers and perofrm the task using the minimal resources .
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/AwaeshaHuss/Solace_FlowZ.git
 
 environment:
